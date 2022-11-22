@@ -39,7 +39,7 @@ public class Driver {
        This way, we can control which browser is opened from outside our code, from configuration.properties
        */
 
-            String browserType = ConfigurationReader.getProperty("browser");
+            String browserType = com.cydeo.library.utilities.ConfigurationReader.getProperty("browser");
        /*
        Depending on the browserType that will be return from configuration.properties file
        switch statement will determine the case, and open the matching browser
